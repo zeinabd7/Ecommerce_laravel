@@ -14,3 +14,5 @@
 Route::get('/', function () {
     return view('bienvenue');
 });
+Route::resource('list', 'ArticlesController');
+

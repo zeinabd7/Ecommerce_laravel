@@ -23,6 +23,9 @@
   .img-responsive{
     height: 250px;
   }
+  .carousel-inner{
+      height:400px;
+    }
   
 </style>
 <nav class="navbar navbar-inverse contain_navbar" >
@@ -94,7 +97,7 @@
         <div class="panel-body"><img src="http://www.toutpratique.com/img/cms/comment-ranger-les-sacs-rangement-des-sacs-astuces-pour-ranger-ses-sacs-comment-ranger-sacs-a-main.jpg" class="img-responsive" style="width:100% " alt="Image"/></div>
         <div class="panel-footer">
           <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "</p>
-          <button value="submit" class="btn btn-primary">Voir details</button>
+          <a href="{{asset('list')}}"><button value="submit" class="btn btn-primary" >Voir details</button></a>
         </div>
       </div>
     </div>
@@ -104,7 +107,8 @@
         <div class="panel-body"><img src="http://www.bijoux-de-lamu.com/images/bijoux-fantaisie-de-marque-en-argent_1.jpg" class="img-responsive" style="width:100%" alt="Image"/></div>
         <div class="panel-footer">
           <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-          <button value="submit" class="btn btn-primary">Voir details</button></div>
+          <a href="{{asset('list')}}"><button value="submit" class="btn btn-primary" >Voir details</button></a>
+        </div>
       </div>
     </div>
     <div class="col-sm-4"> 
@@ -113,7 +117,8 @@
         <div class="panel-body"><img src="https://www.ma-grande-taille.com/wp-content/uploads/2015/03/chaussures-pieds-sensibles-pediconfort-daxon.jpg" class="img-responsive" style="width:100%" alt="Image"></div>
         <div class="panel-footer">
           <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-          <button value="submit" class="btn btn-primary">Voir details</button></div>
+          <a href="{{asset('list')}}"><button value="submit" class="btn btn-primary" >Voir details</button></a>
+        </div>
       </div>
     </div>
   </div>
@@ -127,7 +132,8 @@
         <div class="panel-body"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0P7NYtqi_Xiryg7XYNoW8ZrfU5zrtqGqIQo0uKtBVRj-5EkHx" class="img-responsive" style="width:100%" alt="Image"></div>
         <div class="panel-footer">
           <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-          <button value="submit" class="btn btn-primary">Voir details</button></div>
+          <a href="{{asset('list')}}"><button value="submit" class="btn btn-primary" >Voir details</button></a>
+        </div>
       </div>
     </div>
     <div class="col-sm-4"> 
@@ -136,7 +142,8 @@
         <div class="panel-body"><img src="http://maesoftness.com/wp-content/uploads/2017/07/Collage-robes-2.jpg" class="img-responsive" style="width:100%" alt="Image"></div>
         <div class="panel-footer">
           <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-          <button value="submit" class="btn btn-primary" >Voir details</button></div>
+          <a href="{{asset('list')}}"><button value="submit" class="btn btn-primary" >Voir details</button></a>
+        </div>
       </div>
     </div>
     <div class="col-sm-4"> 
@@ -145,7 +152,8 @@
         <div class="panel-body"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJf-_sIn8bgWEgD0NHQyKFIf_VPkySJNW8MSEzomO9epTFmbiTaw" class="img-responsive" style="width:100%" alt="Image"></div>
         <div class="panel-footer">
           <p >"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-          <button value="submit"class="btn btn-primary">Voir details</button></div>
+          <a href="{{asset('list')}}"><button value="submit" class="btn btn-primary" >Voir details</button></a>
+        </div>
       </div>
     </div>
   </div>
@@ -167,7 +175,7 @@
         </div>
 
       </div>
-      <div class="footer-center ">
+      <div class="footer-center col-sm-4 ">
         
       </div>
 
